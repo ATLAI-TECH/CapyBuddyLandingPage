@@ -1,8 +1,8 @@
 #!/bin/bash
-# Auto-pull deploy script for MacBuddyTools
+# Auto-pull deploy script for CapyBuddyLandingPage
 # Checks if remote has new commits, pulls if so
 
-cd /www/wwwroot/MacBuddyTools || exit 1
+cd /www/wwwroot/CapyBuddyLandingPage || exit 1
 
 git fetch origin main --quiet 2>/dev/null
 
@@ -11,5 +11,5 @@ REMOTE=$(git rev-parse origin/main)
 
 if [ "$LOCAL" != "$REMOTE" ]; then
     git pull origin main --quiet 2>/dev/null
-    echo "$(date '+%Y-%m-%d %H:%M:%S') Deployed: $(git log --oneline -1)" >> /www/wwwroot/MacBuddyTools/deploy.log
+    echo "$(date '+%Y-%m-%d %H:%M:%S') Deployed: $(git log --oneline -1)" >> /www/wwwroot/CapyBuddyLandingPage/deploy.log
 fi

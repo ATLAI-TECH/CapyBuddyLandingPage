@@ -4,7 +4,7 @@ const { execFile } = require('node:child_process');
 
 const PORT = 9900;
 const SECRET = process.env.WEBHOOK_SECRET || '';
-const DEPLOY_SCRIPT = '/www/wwwroot/MacBuddyTools/deploy.sh';
+const DEPLOY_SCRIPT = '/www/wwwroot/CapyBuddyLandingPage/deploy.sh';
 
 const server = http.createServer((req, res) => {
   if (req.method !== 'POST' || req.url !== '/webhook') {
@@ -20,9 +20,9 @@ const server = http.createServer((req, res) => {
 
     // Verify GitHub signature if secret is set
     if (SECRET) {
-      const sig = req.headers['x-hub-signature-256'] || '';
-      const expected = 'sha256=' + crypto.createHmac('sha256', SECRET).update(body).digest('hex');
-      if (!crypto.timingSafeEqual(Buffer.from(sig), Buffer.from(expected))) {
+      const sig = Buffer.from(req.headers['x-hub-signature-256'] || '');
+      const expected = Buffer.from('sha256=' + crypto.createHmac('sha256', SECRET).update(body).digest('hex'));
+      if (sig.length !== expected.length || !crypto.timingSafeEqual(sig, expected)) {
         console.log(`${new Date().toISOString()} Signature mismatch, rejected`);
         res.writeHead(403);
         res.end('Invalid signature');
