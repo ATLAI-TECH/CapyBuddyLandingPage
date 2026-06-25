@@ -71,14 +71,80 @@
               <span data-i18n="hero.btn_download">Download CapyBuddy</span>
               <small data-i18n="hero.btn_download_sub">Free · No Ads</small>
             </a>
-            <a href="#features" class="btn btn-ghost" data-i18n="hero.btn_inside">See what's inside →</a>
           </div>
           <p class="hero-meta" data-i18n="hero.meta">Open-source-ish. No accounts. No subscriptions.</p>
         </div>
 
         <div class="hero-art">
-          <img src="img/screenshots/general.png" alt="CapyBuddy Settings window" class="hero-shot" />
-          <img src="img/macbuddy_icon.png" alt="CapyBuddy app icon" class="hero-icon" />
+          <!-- Animated re-creation of the in-app onboarding tour. Scenes auto-cycle. -->
+          <div class="ob-card" id="ob-card" data-scene="0" aria-hidden="true">
+            <div class="ob-top">
+              <span class="ob-skip" data-i18n="ob.skip">Skip</span>
+            </div>
+
+            <div class="ob-stage">
+              <!-- Scene 0 · Welcome -->
+              <div class="ob-scene is-active" data-accent="blue">
+                <div class="ob-art ob-art-welcome">
+                  <img src="img/macbuddy_icon.png" alt="" class="ob-appicon" />
+                </div>
+                <h3 class="ob-title" data-i18n="ob.welcome.title">Welcome to CapyBuddy</h3>
+                <p class="ob-sub" data-i18n="ob.welcome.sub">Your friendly menu-bar companion.</p>
+              </div>
+
+              <!-- Scene 1 · Screenshot (marching ants) -->
+              <div class="ob-scene" data-accent="orange">
+                <div class="ob-art ob-art-shot">
+                  <svg class="ob-ants" viewBox="0 0 210 124" aria-hidden="true">
+                    <rect x="3" y="3" width="204" height="118" rx="14" />
+                  </svg>
+                  <svg class="ob-view" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M4 8V5a1 1 0 0 1 1-1h3M16 4h3a1 1 0 0 1 1 1v3M20 16v3a1 1 0 0 1-1 1h-3M8 20H5a1 1 0 0 1-1-1v-3"/>
+                    <circle cx="12" cy="12" r="3"/>
+                  </svg>
+                </div>
+                <h3 class="ob-title" data-i18n="ob.shot.title">Screenshot</h3>
+                <p class="ob-sub" data-i18n="ob.shot.sub">Capture, annotate &amp; translate — ⌃1.</p>
+              </div>
+
+              <!-- Scene 2 · Screen Recording (pulse) -->
+              <div class="ob-scene" data-accent="red">
+                <div class="ob-art ob-art-rec">
+                  <span class="ob-pulse"></span>
+                  <span class="ob-pulse ob-pulse-2"></span>
+                  <span class="ob-rec-dot"></span>
+                </div>
+                <h3 class="ob-title" data-i18n="ob.rec.title">Screen Recording</h3>
+                <p class="ob-sub" data-i18n="ob.rec.sub">Record screen or window to video — ⌃2.</p>
+              </div>
+
+              <!-- Scene 3 · Space Shortcut (keycap) -->
+              <div class="ob-scene" data-accent="violet">
+                <div class="ob-art ob-art-space">
+                  <div class="ob-apps">
+                    <span class="ob-app">🧭</span>
+                    <span class="ob-app">✉️</span>
+                    <span class="ob-app">💬</span>
+                  </div>
+                  <span class="ob-key" data-i18n="ob.space.key">space</span>
+                </div>
+                <h3 class="ob-title" data-i18n="ob.space.title">Space Shortcut</h3>
+                <p class="ob-sub" data-i18n="ob.space.sub">Hold Space to launch any app.</p>
+              </div>
+            </div>
+
+            <div class="ob-dots" id="ob-dots">
+              <span class="ob-dot is-active"></span>
+              <span class="ob-dot"></span>
+              <span class="ob-dot"></span>
+              <span class="ob-dot"></span>
+            </div>
+
+            <div class="ob-nav">
+              <span class="ob-btn ob-btn-ghost" data-i18n="ob.back">Back</span>
+              <span class="ob-btn ob-btn-next" data-i18n="ob.next">Next</span>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -141,7 +207,7 @@
     <!-- ====== FEATURES ====== -->
     <section id="features" class="features">
       <div class="section-head">
-        <h2 data-i18n="features.heading">Six tools, one menu-bar app</h2>
+        <h2 data-i18n="features.heading">Ten tools, one menu-bar app</h2>
         <p data-i18n="features.sub">Each tool is independent — turn off the ones you don't need from Settings.</p>
       </div>
 
@@ -181,6 +247,33 @@
           <h3 data-i18n="feat.qr.title">QR Code</h3>
           <p data-i18n="feat.qr.desc">Generate scannable QR codes with custom colors, dot &amp; eye shapes, and an embedded logo.</p>
         </article>
+
+        <article class="feature-card">
+          <div class="feature-icon" aria-hidden="true">🗜️</div>
+          <h3 data-i18n="feat.compressor.title">Compressor</h3>
+          <p data-i18n="feat.compressor.desc">Compress or extract archives — zip, tar, tar.gz, gz — with a simple drag-and-drop window.</p>
+        </article>
+
+        <article class="feature-card">
+          <span class="feature-pro" data-i18n="feat.pro_badge">PRO</span>
+          <div class="feature-icon" aria-hidden="true">⏺</div>
+          <h3 data-i18n="feat.recording.title">Screen Recording</h3>
+          <p data-i18n="feat.recording.desc">Record the full screen, a window, or a region to MP4/MOV — with optional system audio and mic.</p>
+        </article>
+
+        <article class="feature-card">
+          <span class="feature-pro" data-i18n="feat.pro_badge">PRO</span>
+          <div class="feature-icon" aria-hidden="true">✂️</div>
+          <h3 data-i18n="feat.videoeditor.title">Video Editor</h3>
+          <p data-i18n="feat.videoeditor.desc">Trim, crop, speed up, or mute a clip right after recording — no extra app needed.</p>
+        </article>
+
+        <article class="feature-card">
+          <span class="feature-pro" data-i18n="feat.pro_badge">PRO</span>
+          <div class="feature-icon" aria-hidden="true">␣</div>
+          <h3 data-i18n="feat.space.title">Space Shortcut</h3>
+          <p data-i18n="feat.space.desc">Hold the Space bar and tap a key to instantly launch or focus your favourite apps.</p>
+        </article>
       </div>
     </section>
 
@@ -199,7 +292,7 @@
             <p class="price-tagline" data-i18n="pricing.free.tagline">The core menu-bar tools, forever.</p>
           </header>
           <ul class="price-perks">
-            <li data-i18n="pricing.free.perk1">All six menu-bar tools</li>
+            <li data-i18n="pricing.free.perk1">Seven core menu-bar tools</li>
             <li data-i18n="pricing.free.perk2">No ads, no account</li>
             <li data-i18n="pricing.free.perk3">Apple Silicon & Intel</li>
           </ul>

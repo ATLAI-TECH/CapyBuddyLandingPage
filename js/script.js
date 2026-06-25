@@ -29,7 +29,7 @@
 
       'hero.eyebrow': 'macOS · Menu-bar app',
       'hero.title': 'Your friendly<br/>Mac companion.',
-      'hero.lede': "Six handy menu-bar tools, wrapped in one tidy app. Capture and translate screenshots, generate QR codes, keep your Mac awake, browse clipboard history, watch CPU + memory, and convert pictures — all from a single buddy in your menu bar.",
+      'hero.lede': "A whole toolkit of handy menu-bar tools, wrapped in one tidy app. Capture and translate screenshots, record your screen, edit clips, generate QR codes, keep your Mac awake, browse clipboard history, watch CPU + memory, convert pictures, and launch apps with a Space-hold shortcut — all from a single buddy in your menu bar.",
       'hero.btn_download': 'Download CapyBuddy',
       'hero.btn_download_sub': 'Free · No Ads',
       'hero.btn_inside': "See what's inside →",
@@ -46,7 +46,7 @@
       'shots.cap7': 'Three hotkey styles to choose from — Snipaste, CleanShot X, or Shottr — to avoid conflicts.',
       'shots.cap8': 'Live CPU + memory in the menu bar, formatted your way.',
 
-      'features.heading': 'Six tools, one menu-bar app',
+      'features.heading': 'Ten tools, one menu-bar app',
       'features.sub': "Each tool is independent — turn off the ones you don't need from Settings.",
 
       'feat.screenshot.title': 'Screenshot',
@@ -60,7 +60,29 @@
       'feat.picture.title': 'Picture Converter',
       'feat.picture.desc': 'Drag-and-drop converter between PNG, JPEG, HEIC, TIFF, GIF, AVIF, ICO, BMP, ICNS, JP2.',
       'feat.qr.title': 'QR Code',
-      'feat.qr.desc': 'Generate scannable QR codes with custom colors, dot &amp; eye shapes, and an embedded logo.',
+      'feat.qr.desc': 'Generate scannable QR codes with custom colors, dot & eye shapes, and an embedded logo.',
+      'feat.compressor.title': 'Compressor',
+      'feat.compressor.desc': 'Compress or extract archives — zip, tar, tar.gz, gz — with a simple drag-and-drop window.',
+      'feat.recording.title': 'Screen Recording',
+      'feat.recording.desc': 'Record the full screen, a window, or a region to MP4/MOV — with optional system audio and mic.',
+      'feat.videoeditor.title': 'Video Editor',
+      'feat.videoeditor.desc': 'Trim, crop, speed up, or mute a clip right after recording — no extra app needed.',
+      'feat.space.title': 'Space Shortcut',
+      'feat.space.desc': 'Hold the Space bar and tap a key to instantly launch or focus your favourite apps.',
+      'feat.pro_badge': 'PRO',
+
+      'ob.skip': 'Skip',
+      'ob.back': 'Back',
+      'ob.next': 'Next',
+      'ob.welcome.title': 'Welcome to CapyBuddy',
+      'ob.welcome.sub': 'Your friendly menu-bar companion.',
+      'ob.shot.title': 'Screenshot',
+      'ob.shot.sub': 'Capture, annotate & translate — ⌃1.',
+      'ob.rec.title': 'Screen Recording',
+      'ob.rec.sub': 'Record screen or window to video — ⌃2.',
+      'ob.space.title': 'Space Shortcut',
+      'ob.space.sub': 'Hold Space to launch any app.',
+      'ob.space.key': 'space',
 
       'download.heading': 'Get CapyBuddy',
       'download.sub': 'Free. No ads. Apple Silicon &amp; Intel.',
@@ -74,7 +96,7 @@
       'pricing.free.name': 'Free',
       'pricing.free.price': '£0',
       'pricing.free.tagline': 'The core menu-bar tools, forever.',
-      'pricing.free.perk1': 'All six menu-bar tools',
+      'pricing.free.perk1': 'Seven core menu-bar tools',
       'pricing.free.perk2': 'No ads, no account',
       'pricing.free.perk3': 'Apple Silicon & Intel',
       'pricing.free.cta': 'Download free',
@@ -160,7 +182,7 @@
 
       'hero.eyebrow': 'macOS · App barre de menus',
       'hero.title': 'Votre compagnon<br/>Mac amical.',
-      'hero.lede': "Six outils pratiques pour la barre de menus, regroupés dans une seule application. Capturez et traduisez des captures d'écran, générez des QR codes, gardez votre Mac éveillé, parcourez l'historique du presse-papiers, surveillez le CPU et la mémoire, et convertissez des images — le tout depuis un seul compagnon dans votre barre de menus.",
+      'hero.lede': "Toute une boîte à outils pour la barre de menus, dans une seule application. Capturez et traduisez des captures, enregistrez votre écran, montez des clips, générez des QR codes, gardez votre Mac éveillé, parcourez le presse-papiers, surveillez le CPU et la mémoire, convertissez des images, et lancez des apps avec un raccourci Espace — le tout depuis un seul compagnon dans votre barre de menus.",
       'hero.btn_download': 'Télécharger CapyBuddy',
       'hero.btn_download_sub': 'Gratuit · Sans pub',
       'hero.btn_inside': 'Découvrir le contenu →',
@@ -177,7 +199,7 @@
       'shots.cap7': 'Trois styles de raccourcis au choix — Snipaste, CleanShot X ou Shottr — pour éviter les conflits.',
       'shots.cap8': 'CPU et mémoire en direct dans la barre de menus, formatés à votre façon.',
 
-      'features.heading': 'Six outils, une seule app',
+      'features.heading': 'Dix outils, une seule app',
       'features.sub': "Chaque outil est indépendant — désactivez ceux dont vous n'avez pas besoin depuis les Paramètres.",
 
       'feat.screenshot.title': "Capture d'écran",
@@ -192,6 +214,28 @@
       'feat.picture.desc': 'Convertisseur glisser-déposer entre PNG, JPEG, HEIC, TIFF, GIF, AVIF, ICO, BMP, ICNS, JP2.',
       'feat.qr.title': 'Code QR',
       'feat.qr.desc': "Générez des QR codes scannables avec des couleurs personnalisées, des formes de points et d'yeux, et un logo intégré.",
+      'feat.compressor.title': 'Compresseur',
+      'feat.compressor.desc': 'Compressez ou extrayez des archives — zip, tar, tar.gz, gz — par simple glisser-déposer.',
+      'feat.recording.title': "Enregistrement d'écran",
+      'feat.recording.desc': "Enregistrez tout l'écran, une fenêtre ou une zone en MP4/MOV — avec audio système et micro en option.",
+      'feat.videoeditor.title': 'Éditeur vidéo',
+      'feat.videoeditor.desc': "Coupez, recadrez, accélérez ou coupez le son d'un clip juste après l'enregistrement — sans autre app.",
+      'feat.space.title': 'Raccourci Espace',
+      'feat.space.desc': "Maintenez la barre d'espace et appuyez sur une touche pour lancer ou activer vos apps favorites.",
+      'feat.pro_badge': 'PRO',
+
+      'ob.skip': 'Passer',
+      'ob.back': 'Retour',
+      'ob.next': 'Suivant',
+      'ob.welcome.title': 'Bienvenue dans CapyBuddy',
+      'ob.welcome.sub': 'Votre compagnon de barre de menus.',
+      'ob.shot.title': "Capture d'écran",
+      'ob.shot.sub': 'Capturez, annotez et traduisez — ⌃1.',
+      'ob.rec.title': "Enregistrement d'écran",
+      'ob.rec.sub': "Enregistrez l'écran ou une fenêtre — ⌃2.",
+      'ob.space.title': 'Raccourci Espace',
+      'ob.space.sub': 'Maintenez Espace pour lancer une app.',
+      'ob.space.key': 'espace',
 
       'download.heading': 'Obtenir CapyBuddy',
       'download.sub': 'Gratuit. Sans pub. Apple Silicon et Intel.',
@@ -204,7 +248,7 @@
       'pricing.sub': 'Les outils essentiels sont gratuits pour toujours. Débloquez les fonctions avancées une seule fois pour 4,99 £ — sans abonnement.',
       'pricing.free.name': 'Gratuit',
       'pricing.free.tagline': 'Les outils essentiels de la barre de menus, pour toujours.',
-      'pricing.free.perk1': 'Les six outils de la barre de menus',
+      'pricing.free.perk1': 'Sept outils essentiels de la barre de menus',
       'pricing.free.perk2': 'Sans pub, sans compte',
       'pricing.free.perk3': 'Apple Silicon et Intel',
       'pricing.free.cta': 'Télécharger gratuitement',
@@ -289,7 +333,7 @@
 
       'hero.eyebrow': 'macOS · Menüleisten-App',
       'hero.title': 'Dein freundlicher<br/>Mac-Begleiter.',
-      'hero.lede': 'Sechs praktische Menüleisten-Tools, gebündelt in einer schlanken App. Erstelle und übersetze Screenshots, generiere QR-Codes, halte deinen Mac wach, durchsuche die Zwischenablage-Historie, überwache CPU und Speicher und konvertiere Bilder — alles aus einem einzigen Begleiter in deiner Menüleiste.',
+      'hero.lede': 'Ein ganzes Toolkit praktischer Menüleisten-Tools in einer schlanken App. Erstelle und übersetze Screenshots, nimm den Bildschirm auf, schneide Clips, generiere QR-Codes, halte deinen Mac wach, durchsuche die Zwischenablage, überwache CPU und Speicher, konvertiere Bilder und starte Apps per Leertaste-Kürzel — alles aus einem einzigen Begleiter in deiner Menüleiste.',
       'hero.btn_download': 'CapyBuddy herunterladen',
       'hero.btn_download_sub': 'Gratis · Werbefrei',
       'hero.btn_inside': 'Inhalt anschauen →',
@@ -306,7 +350,7 @@
       'shots.cap7': 'Drei Tastenkürzel-Stile zur Auswahl — Snipaste, CleanShot X oder Shottr — um Konflikte zu vermeiden.',
       'shots.cap8': 'CPU und Speicher live in der Menüleiste, formatiert nach deinen Wünschen.',
 
-      'features.heading': 'Sechs Tools, eine Menüleisten-App',
+      'features.heading': 'Zehn Tools, eine Menüleisten-App',
       'features.sub': 'Jedes Tool ist unabhängig — deaktiviere die, die du nicht brauchst, in den Einstellungen.',
 
       'feat.screenshot.title': 'Screenshot',
@@ -321,6 +365,28 @@
       'feat.picture.desc': 'Drag-and-Drop-Konverter zwischen PNG, JPEG, HEIC, TIFF, GIF, AVIF, ICO, BMP, ICNS, JP2.',
       'feat.qr.title': 'QR-Code',
       'feat.qr.desc': 'Erzeuge scannbare QR-Codes mit eigenen Farben, Punkt- und Augenformen sowie eingebettetem Logo.',
+      'feat.compressor.title': 'Kompressor',
+      'feat.compressor.desc': 'Archive per Drag-and-Drop komprimieren oder entpacken — zip, tar, tar.gz, gz.',
+      'feat.recording.title': 'Bildschirmaufnahme',
+      'feat.recording.desc': 'Nimm den ganzen Bildschirm, ein Fenster oder einen Bereich als MP4/MOV auf — mit System-Audio und Mikro optional.',
+      'feat.videoeditor.title': 'Video-Editor',
+      'feat.videoeditor.desc': 'Schneide, beschneide, beschleunige oder stumme einen Clip direkt nach der Aufnahme — ohne Extra-App.',
+      'feat.space.title': 'Leertaste-Kürzel',
+      'feat.space.desc': 'Halte die Leertaste und tippe eine Taste, um deine Lieblings-Apps sofort zu starten oder zu fokussieren.',
+      'feat.pro_badge': 'PRO',
+
+      'ob.skip': 'Überspringen',
+      'ob.back': 'Zurück',
+      'ob.next': 'Weiter',
+      'ob.welcome.title': 'Willkommen bei CapyBuddy',
+      'ob.welcome.sub': 'Dein freundlicher Menüleisten-Begleiter.',
+      'ob.shot.title': 'Screenshot',
+      'ob.shot.sub': 'Erfassen, annotieren & übersetzen — ⌃1.',
+      'ob.rec.title': 'Bildschirmaufnahme',
+      'ob.rec.sub': 'Bildschirm oder Fenster als Video aufnehmen — ⌃2.',
+      'ob.space.title': 'Leertaste-Kürzel',
+      'ob.space.sub': 'Halte Leertaste, um Apps zu starten.',
+      'ob.space.key': 'Leertaste',
 
       'download.heading': 'CapyBuddy holen',
       'download.sub': 'Gratis. Werbefrei. Apple Silicon &amp; Intel.',
@@ -333,7 +399,7 @@
       'pricing.sub': 'Die Kern-Tools sind für immer kostenlos. Schalte die Power-Funktionen einmalig für 4,99 £ frei — ohne Abo.',
       'pricing.free.name': 'Gratis',
       'pricing.free.tagline': 'Die Kern-Tools der Menüleiste, für immer.',
-      'pricing.free.perk1': 'Alle sechs Menüleisten-Tools',
+      'pricing.free.perk1': 'Sieben Kern-Tools der Menüleiste',
       'pricing.free.perk2': 'Keine Werbung, kein Konto',
       'pricing.free.perk3': 'Apple Silicon und Intel',
       'pricing.free.cta': 'Kostenlos laden',
@@ -418,7 +484,7 @@
 
       'hero.eyebrow': 'macOS · 菜单栏应用',
       'hero.title': '你贴心的<br/>Mac 小伙伴。',
-      'hero.lede': '六款实用的菜单栏小工具，集成在一个简洁的应用里。截图并翻译、生成二维码、防止 Mac 休眠、浏览剪贴板历史、查看 CPU 与内存、转换图片格式 —— 全部由菜单栏里的这位小伙伴一手包办。',
+      'hero.lede': '一整套实用的菜单栏小工具，集成在一个简洁的应用里。截图并翻译、录制屏幕、剪辑视频、生成二维码、防止 Mac 休眠、浏览剪贴板历史、查看 CPU 与内存、转换图片，还能用长按空格快捷键启动应用 —— 全部由菜单栏里的这位小伙伴一手包办。',
       'hero.btn_download': '下载 CapyBuddy',
       'hero.btn_download_sub': '免费 · 无广告',
       'hero.btn_inside': '看看里面有什么 →',
@@ -435,7 +501,7 @@
       'shots.cap7': '三种快捷键风格可选 —— Snipaste、CleanShot X 或 Shottr —— 避免冲突。',
       'shots.cap8': '菜单栏实时显示 CPU 与内存，格式随你设置。',
 
-      'features.heading': '六个工具，一个菜单栏应用',
+      'features.heading': '十个工具，一个菜单栏应用',
       'features.sub': '每个工具相互独立 —— 不需要的可在设置中关闭。',
 
       'feat.screenshot.title': '截图',
@@ -450,6 +516,28 @@
       'feat.picture.desc': '拖放转换：PNG、JPEG、HEIC、TIFF、GIF、AVIF、ICO、BMP、ICNS、JP2 互转。',
       'feat.qr.title': '二维码',
       'feat.qr.desc': '生成可扫描的二维码，支持自定义颜色、点形与眼形，可嵌入 Logo。',
+      'feat.compressor.title': '压缩工具',
+      'feat.compressor.desc': '拖放即可压缩或解压：zip、tar、tar.gz、gz。',
+      'feat.recording.title': '屏幕录制',
+      'feat.recording.desc': '将全屏、窗口或区域录制为 MP4/MOV —— 可选系统声音与麦克风。',
+      'feat.videoeditor.title': '视频剪辑',
+      'feat.videoeditor.desc': '录制后即可裁剪、裁切、加速或静音 —— 无需额外应用。',
+      'feat.space.title': '空格快捷键',
+      'feat.space.desc': '长按空格再按一个键，即可瞬间启动或切换你常用的应用。',
+      'feat.pro_badge': 'PRO',
+
+      'ob.skip': '跳过',
+      'ob.back': '上一步',
+      'ob.next': '下一步',
+      'ob.welcome.title': '欢迎使用 CapyBuddy',
+      'ob.welcome.sub': '你贴心的菜单栏小伙伴。',
+      'ob.shot.title': '截图',
+      'ob.shot.sub': '截图、标注并翻译 —— ⌃1。',
+      'ob.rec.title': '屏幕录制',
+      'ob.rec.sub': '将屏幕或窗口录制为视频 —— ⌃2。',
+      'ob.space.title': '空格快捷键',
+      'ob.space.sub': '长按空格即可启动应用。',
+      'ob.space.key': '空格',
 
       'download.heading': '获取 CapyBuddy',
       'download.sub': '免费、无广告。Apple Silicon 与 Intel 通用。',
@@ -462,7 +550,7 @@
       'pricing.sub': '核心工具永久免费。一次性支付 £4.99 解锁强力功能 —— 无需订阅。',
       'pricing.free.name': '免费',
       'pricing.free.tagline': '核心菜单栏工具，永久免费。',
-      'pricing.free.perk1': '全部六款菜单栏工具',
+      'pricing.free.perk1': '七款核心菜单栏工具',
       'pricing.free.perk2': '无广告、无需账号',
       'pricing.free.perk3': 'Apple Silicon 与 Intel 通用',
       'pricing.free.cta': '免费下载',
@@ -547,7 +635,7 @@
 
       'hero.eyebrow': 'macOS · App de barra de menús',
       'hero.title': 'Tu amigable<br/>compañero para Mac.',
-      'hero.lede': 'Seis prácticas herramientas para la barra de menús, reunidas en una sola app cuidada. Captura y traduce capturas de pantalla, genera códigos QR, mantén tu Mac despierto, navega por el historial del portapapeles, vigila CPU y memoria, y convierte imágenes — todo desde un solo compañero en tu barra de menús.',
+      'hero.lede': 'Toda una caja de herramientas para la barra de menús, en una sola app cuidada. Captura y traduce capturas, graba la pantalla, edita clips, genera códigos QR, mantén tu Mac despierto, navega por el portapapeles, vigila CPU y memoria, convierte imágenes y abre apps con un atajo de Espacio — todo desde un solo compañero en tu barra de menús.',
       'hero.btn_download': 'Descargar CapyBuddy',
       'hero.btn_download_sub': 'Gratis · Sin anuncios',
       'hero.btn_inside': 'Ver qué contiene →',
@@ -564,7 +652,7 @@
       'shots.cap7': 'Tres estilos de atajos a elegir — Snipaste, CleanShot X o Shottr — para evitar conflictos.',
       'shots.cap8': 'CPU y memoria en vivo en la barra de menús, con el formato que prefieras.',
 
-      'features.heading': 'Seis herramientas, una app de barra de menús',
+      'features.heading': 'Diez herramientas, una app de barra de menús',
       'features.sub': 'Cada herramienta es independiente — desactiva las que no necesites desde Ajustes.',
 
       'feat.screenshot.title': 'Captura',
@@ -579,6 +667,28 @@
       'feat.picture.desc': 'Conversor de arrastrar y soltar entre PNG, JPEG, HEIC, TIFF, GIF, AVIF, ICO, BMP, ICNS, JP2.',
       'feat.qr.title': 'Código QR',
       'feat.qr.desc': 'Genera códigos QR escaneables con colores propios, formas de puntos y ojos, y un logo incrustado.',
+      'feat.compressor.title': 'Compresor',
+      'feat.compressor.desc': 'Comprime o extrae archivos — zip, tar, tar.gz, gz — con una ventana simple de arrastrar y soltar.',
+      'feat.recording.title': 'Grabación de pantalla',
+      'feat.recording.desc': 'Graba la pantalla completa, una ventana o una zona en MP4/MOV — con audio del sistema y micro opcionales.',
+      'feat.videoeditor.title': 'Editor de vídeo',
+      'feat.videoeditor.desc': 'Recorta, encuadra, acelera o silencia un clip justo después de grabar — sin otra app.',
+      'feat.space.title': 'Atajo con Espacio',
+      'feat.space.desc': 'Mantén la barra espaciadora y pulsa una tecla para abrir o enfocar al instante tus apps favoritas.',
+      'feat.pro_badge': 'PRO',
+
+      'ob.skip': 'Saltar',
+      'ob.back': 'Atrás',
+      'ob.next': 'Siguiente',
+      'ob.welcome.title': 'Te damos la bienvenida a CapyBuddy',
+      'ob.welcome.sub': 'Tu compañero de la barra de menús.',
+      'ob.shot.title': 'Captura',
+      'ob.shot.sub': 'Captura, anota y traduce — ⌃1.',
+      'ob.rec.title': 'Grabación de pantalla',
+      'ob.rec.sub': 'Graba la pantalla o una ventana — ⌃2.',
+      'ob.space.title': 'Atajo con Espacio',
+      'ob.space.sub': 'Mantén Espacio para abrir apps.',
+      'ob.space.key': 'espacio',
 
       'download.heading': 'Obtener CapyBuddy',
       'download.sub': 'Gratis. Sin anuncios. Apple Silicon e Intel.',
@@ -591,7 +701,7 @@
       'pricing.sub': 'Las herramientas básicas son gratis para siempre. Desbloquea las funciones avanzadas una vez por 4,99 £ — sin suscripción.',
       'pricing.free.name': 'Gratis',
       'pricing.free.tagline': 'Las herramientas básicas de la barra de menús, para siempre.',
-      'pricing.free.perk1': 'Las seis herramientas de la barra de menús',
+      'pricing.free.perk1': 'Siete herramientas básicas de la barra de menús',
       'pricing.free.perk2': 'Sin anuncios, sin cuenta',
       'pricing.free.perk3': 'Apple Silicon e Intel',
       'pricing.free.cta': 'Descargar gratis',
@@ -676,7 +786,7 @@
 
       'hero.eyebrow': 'macOS · Приложение в строке меню',
       'hero.title': 'Дружелюбный<br/>помощник для Mac.',
-      'hero.lede': 'Шесть удобных инструментов для строки меню в одном аккуратном приложении. Делайте и переводите скриншоты, генерируйте QR-коды, не давайте Mac уснуть, просматривайте историю буфера обмена, следите за CPU и памятью, конвертируйте изображения — всё это от одного помощника в вашей строке меню.',
+      'hero.lede': 'Целый набор удобных инструментов для строки меню в одном аккуратном приложении. Делайте и переводите скриншоты, записывайте экран, монтируйте клипы, генерируйте QR-коды, не давайте Mac уснуть, просматривайте буфер обмена, следите за CPU и памятью, конвертируйте изображения и запускайте приложения горячей клавишей Пробел — всё от одного помощника в вашей строке меню.',
       'hero.btn_download': 'Скачать CapyBuddy',
       'hero.btn_download_sub': 'Бесплатно · Без рекламы',
       'hero.btn_inside': 'Заглянуть внутрь →',
@@ -693,7 +803,7 @@
       'shots.cap7': 'Три стиля горячих клавиш на выбор — Snipaste, CleanShot X или Shottr — чтобы избежать конфликтов.',
       'shots.cap8': 'CPU и память в реальном времени в строке меню, в нужном вам формате.',
 
-      'features.heading': 'Шесть инструментов, одно приложение',
+      'features.heading': 'Десять инструментов, одно приложение',
       'features.sub': 'Каждый инструмент независим — отключите ненужные в Настройках.',
 
       'feat.screenshot.title': 'Скриншот',
@@ -708,6 +818,28 @@
       'feat.picture.desc': 'Drag-and-drop конвертер между PNG, JPEG, HEIC, TIFF, GIF, AVIF, ICO, BMP, ICNS, JP2.',
       'feat.qr.title': 'QR-код',
       'feat.qr.desc': 'Создавайте сканируемые QR-коды со своими цветами, формой точек и глаз и встроенным логотипом.',
+      'feat.compressor.title': 'Архиватор',
+      'feat.compressor.desc': 'Сжимайте и распаковывайте архивы — zip, tar, tar.gz, gz — простым перетаскиванием.',
+      'feat.recording.title': 'Запись экрана',
+      'feat.recording.desc': 'Записывайте весь экран, окно или область в MP4/MOV — со звуком системы и микрофоном по желанию.',
+      'feat.videoeditor.title': 'Видеоредактор',
+      'feat.videoeditor.desc': 'Обрежьте, кадрируйте, ускорьте или заглушите клип сразу после записи — без отдельного приложения.',
+      'feat.space.title': 'Горячая клавиша Пробел',
+      'feat.space.desc': 'Удерживайте пробел и нажмите клавишу, чтобы мгновенно запустить или открыть любимые приложения.',
+      'feat.pro_badge': 'PRO',
+
+      'ob.skip': 'Пропустить',
+      'ob.back': 'Назад',
+      'ob.next': 'Далее',
+      'ob.welcome.title': 'Добро пожаловать в CapyBuddy',
+      'ob.welcome.sub': 'Ваш дружелюбный помощник в строке меню.',
+      'ob.shot.title': 'Скриншот',
+      'ob.shot.sub': 'Захват, разметка и перевод — ⌃1.',
+      'ob.rec.title': 'Запись экрана',
+      'ob.rec.sub': 'Записывайте экран или окно в видео — ⌃2.',
+      'ob.space.title': 'Клавиша Пробел',
+      'ob.space.sub': 'Удерживайте Пробел, чтобы запускать приложения.',
+      'ob.space.key': 'пробел',
 
       'download.heading': 'Получить CapyBuddy',
       'download.sub': 'Бесплатно. Без рекламы. Apple Silicon и Intel.',
@@ -720,7 +852,7 @@
       'pricing.sub': 'Основные инструменты бесплатны навсегда. Разблокируйте мощные функции один раз за £4.99 — без подписки.',
       'pricing.free.name': 'Бесплатно',
       'pricing.free.tagline': 'Основные инструменты строки меню — навсегда.',
-      'pricing.free.perk1': 'Все шесть инструментов строки меню',
+      'pricing.free.perk1': 'Семь основных инструментов строки меню',
       'pricing.free.perk2': 'Без рекламы и без аккаунта',
       'pricing.free.perk3': 'Apple Silicon и Intel',
       'pricing.free.cta': 'Скачать бесплатно',
@@ -905,9 +1037,33 @@
     LANGS,
   };
 
+  function initOnboarding() {
+    const card = document.getElementById('ob-card');
+    if (!card) return;
+    const scenes = Array.prototype.slice.call(card.querySelectorAll('.ob-scene'));
+    const dots = Array.prototype.slice.call(card.querySelectorAll('.ob-dot'));
+    if (!scenes.length) return;
+    const ACCENTS = { blue: '#4a72ff', orange: '#d97a2c', red: '#e5484d', violet: '#7a5cff' };
+
+    function show(n) {
+      scenes.forEach((s, k) => s.classList.toggle('is-active', k === n));
+      dots.forEach((d, k) => d.classList.toggle('is-active', k === n));
+      const accent = ACCENTS[scenes[n].getAttribute('data-accent')] || ACCENTS.blue;
+      card.style.setProperty('--ob-accent', accent);
+      card.setAttribute('data-scene', String(n));
+    }
+
+    let i = 0;
+    show(0);
+    const reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (reduce) return;
+    setInterval(() => { i = (i + 1) % scenes.length; show(i); }, 3000);
+  }
+
   function init() {
     initSwitcher();
     apply(state.lang);
+    initOnboarding();
   }
 
   if (document.readyState === 'loading') {
