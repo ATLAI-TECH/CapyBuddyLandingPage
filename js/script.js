@@ -31,7 +31,7 @@
       'hero.title': 'Your friendly<br/>Mac companion.',
       'hero.lede': "A whole toolkit of handy menu-bar tools, wrapped in one tidy app. Capture and translate screenshots, generate QR codes, keep your Mac awake, browse clipboard history, watch CPU + memory, convert pictures, and compress archives — all from a single buddy in your menu bar.",
       'hero.btn_download': 'Download CapyBuddy',
-      'hero.btn_download_sub': 'Free · No Ads',
+      'hero.btn_download_sub': 'No ads · No account',
       'hero.btn_inside': "See what's inside →",
       'hero.meta': 'Open-source-ish. No accounts. No subscriptions.',
 
@@ -89,7 +89,7 @@
       'ob.mon.sub': 'Live CPU & memory in the menu bar.',
 
       'download.heading': 'Get CapyBuddy',
-      'download.sub': 'Free. No ads. Apple Silicon &amp; Intel.',
+      'download.sub': 'No ads, no account. Apple Silicon &amp; Intel.',
       'download.btn': 'Download latest release',
       'download.btn_sub': 'latest · .dmg',
       'download.view': 'View source on GitHub →',
@@ -188,7 +188,7 @@
       'hero.title': 'Votre compagnon<br/>Mac amical.',
       'hero.lede': "Toute une boîte à outils pour la barre de menus, dans une seule application. Capturez et traduisez des captures, générez des QR codes, gardez votre Mac éveillé, parcourez le presse-papiers, surveillez le CPU et la mémoire, convertissez des images et compressez des archives — le tout depuis un seul compagnon dans votre barre de menus.",
       'hero.btn_download': 'Télécharger CapyBuddy',
-      'hero.btn_download_sub': 'Gratuit · Sans pub',
+      'hero.btn_download_sub': 'Sans pub · Sans compte',
       'hero.btn_inside': 'Découvrir le contenu →',
       'hero.meta': "Plutôt open source. Pas de comptes. Pas d'abonnements.",
 
@@ -246,7 +246,7 @@
       'ob.mon.sub': 'CPU et mémoire en direct dans la barre.',
 
       'download.heading': 'Obtenir CapyBuddy',
-      'download.sub': 'Gratuit. Sans pub. Apple Silicon et Intel.',
+      'download.sub': 'Sans pub, sans compte. Apple Silicon et Intel.',
       'download.btn': 'Télécharger la dernière version',
       'download.btn_sub': 'dernière · .dmg',
       'download.view': 'Voir le code source sur GitHub →',
@@ -343,7 +343,7 @@
       'hero.title': 'Dein freundlicher<br/>Mac-Begleiter.',
       'hero.lede': 'Ein ganzes Toolkit praktischer Menüleisten-Tools in einer schlanken App. Erstelle und übersetze Screenshots, generiere QR-Codes, halte deinen Mac wach, durchsuche die Zwischenablage, überwache CPU und Speicher, konvertiere Bilder und komprimiere Archive — alles aus einem einzigen Begleiter in deiner Menüleiste.',
       'hero.btn_download': 'CapyBuddy herunterladen',
-      'hero.btn_download_sub': 'Gratis · Werbefrei',
+      'hero.btn_download_sub': 'Werbefrei · Kein Konto',
       'hero.btn_inside': 'Inhalt anschauen →',
       'hero.meta': 'Quasi Open Source. Keine Konten. Keine Abos.',
 
@@ -401,7 +401,7 @@
       'ob.mon.sub': 'CPU & Speicher live in der Menüleiste.',
 
       'download.heading': 'CapyBuddy holen',
-      'download.sub': 'Gratis. Werbefrei. Apple Silicon &amp; Intel.',
+      'download.sub': 'Werbefrei, kein Konto. Apple Silicon &amp; Intel.',
       'download.btn': 'Neueste Version laden',
       'download.btn_sub': 'neueste · .dmg',
       'download.view': 'Quellcode auf GitHub ansehen →',
@@ -498,7 +498,7 @@
       'hero.title': '你贴心的<br/>Mac 小伙伴。',
       'hero.lede': '一整套实用的菜单栏小工具，集成在一个简洁的应用里。截图并翻译、生成二维码、防止 Mac 休眠、浏览剪贴板历史、查看 CPU 与内存、转换图片、压缩与解压 —— 全部由菜单栏里的这位小伙伴一手包办。',
       'hero.btn_download': '下载 CapyBuddy',
-      'hero.btn_download_sub': '免费 · 无广告',
+      'hero.btn_download_sub': '无广告 · 无需账号',
       'hero.btn_inside': '看看里面有什么 →',
       'hero.meta': '半开源。无账号。无订阅。',
 
@@ -556,7 +556,7 @@
       'ob.mon.sub': '菜单栏实时显示 CPU 与内存。',
 
       'download.heading': '获取 CapyBuddy',
-      'download.sub': '免费、无广告。Apple Silicon 与 Intel 通用。',
+      'download.sub': '无广告、无需账号。Apple Silicon 与 Intel 通用。',
       'download.btn': '下载最新版本',
       'download.btn_sub': '最新版 · .dmg',
       'download.view': '在 GitHub 查看源码 →',
@@ -653,7 +653,7 @@
       'hero.title': 'Tu amigable<br/>compañero para Mac.',
       'hero.lede': 'Toda una caja de herramientas para la barra de menús, en una sola app cuidada. Captura y traduce capturas, genera códigos QR, mantén tu Mac despierto, navega por el portapapeles, vigila CPU y memoria, convierte imágenes y comprime archivos — todo desde un solo compañero en tu barra de menús.',
       'hero.btn_download': 'Descargar CapyBuddy',
-      'hero.btn_download_sub': 'Gratis · Sin anuncios',
+      'hero.btn_download_sub': 'Sin anuncios · Sin cuenta',
       'hero.btn_inside': 'Ver qué contiene →',
       'hero.meta': 'Casi open source. Sin cuentas. Sin suscripciones.',
 
@@ -711,7 +711,7 @@
       'ob.mon.sub': 'CPU y memoria en vivo en la barra.',
 
       'download.heading': 'Obtener CapyBuddy',
-      'download.sub': 'Gratis. Sin anuncios. Apple Silicon e Intel.',
+      'download.sub': 'Sin anuncios, sin cuenta. Apple Silicon e Intel.',
       'download.btn': 'Descargar la última versión',
       'download.btn_sub': 'última · .dmg',
       'download.view': 'Ver el código en GitHub →',
@@ -808,7 +808,7 @@
       'hero.title': 'Дружелюбный<br/>помощник для Mac.',
       'hero.lede': 'Целый набор удобных инструментов для строки меню в одном аккуратном приложении. Делайте и переводите скриншоты, генерируйте QR-коды, не давайте Mac уснуть, просматривайте буфер обмена, следите за CPU и памятью, конвертируйте изображения и сжимайте архивы — всё от одного помощника в вашей строке меню.',
       'hero.btn_download': 'Скачать CapyBuddy',
-      'hero.btn_download_sub': 'Бесплатно · Без рекламы',
+      'hero.btn_download_sub': 'Без рекламы · Без аккаунта',
       'hero.btn_inside': 'Заглянуть внутрь →',
       'hero.meta': 'Почти open source. Без учётных записей. Без подписок.',
 
@@ -866,7 +866,7 @@
       'ob.mon.sub': 'CPU и память в реальном времени в меню.',
 
       'download.heading': 'Получить CapyBuddy',
-      'download.sub': 'Бесплатно. Без рекламы. Apple Silicon и Intel.',
+      'download.sub': 'Без рекламы, без аккаунта. Apple Silicon и Intel.',
       'download.btn': 'Скачать последнюю версию',
       'download.btn_sub': 'последняя · .dmg',
       'download.view': 'Открыть исходники на GitHub →',
