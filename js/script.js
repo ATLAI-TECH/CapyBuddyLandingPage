@@ -29,7 +29,7 @@
 
       'hero.eyebrow': 'macOS · Menu-bar app',
       'hero.title': 'Your friendly<br/>Mac companion.',
-      'hero.lede': "A whole toolkit of handy menu-bar tools, wrapped in one tidy app. Capture and translate screenshots, record your screen, edit clips, generate QR codes, keep your Mac awake, browse clipboard history, watch CPU + memory, convert pictures, and launch apps with a Space-hold shortcut — all from a single buddy in your menu bar.",
+      'hero.lede': "A whole toolkit of handy menu-bar tools, wrapped in one tidy app. Capture and translate screenshots, generate QR codes, keep your Mac awake, browse clipboard history, watch CPU + memory, convert pictures, and compress archives — all from a single buddy in your menu bar.",
       'hero.btn_download': 'Download CapyBuddy',
       'hero.btn_download_sub': 'Free · No Ads',
       'hero.btn_inside': "See what's inside →",
@@ -46,7 +46,7 @@
       'shots.cap7': 'Three hotkey styles to choose from — Snipaste, CleanShot X, or Shottr — to avoid conflicts.',
       'shots.cap8': 'Live CPU + memory in the menu bar, formatted your way.',
 
-      'features.heading': 'Ten tools, one menu-bar app',
+      'features.heading': 'Seven tools, one menu-bar app',
       'features.sub': "Each tool is independent — turn off the ones you don't need from Settings.",
 
       'feat.screenshot.title': 'Screenshot',
@@ -182,7 +182,7 @@
 
       'hero.eyebrow': 'macOS · App barre de menus',
       'hero.title': 'Votre compagnon<br/>Mac amical.',
-      'hero.lede': "Toute une boîte à outils pour la barre de menus, dans une seule application. Capturez et traduisez des captures, enregistrez votre écran, montez des clips, générez des QR codes, gardez votre Mac éveillé, parcourez le presse-papiers, surveillez le CPU et la mémoire, convertissez des images, et lancez des apps avec un raccourci Espace — le tout depuis un seul compagnon dans votre barre de menus.",
+      'hero.lede': "Toute une boîte à outils pour la barre de menus, dans une seule application. Capturez et traduisez des captures, générez des QR codes, gardez votre Mac éveillé, parcourez le presse-papiers, surveillez le CPU et la mémoire, convertissez des images et compressez des archives — le tout depuis un seul compagnon dans votre barre de menus.",
       'hero.btn_download': 'Télécharger CapyBuddy',
       'hero.btn_download_sub': 'Gratuit · Sans pub',
       'hero.btn_inside': 'Découvrir le contenu →',
@@ -199,7 +199,7 @@
       'shots.cap7': 'Trois styles de raccourcis au choix — Snipaste, CleanShot X ou Shottr — pour éviter les conflits.',
       'shots.cap8': 'CPU et mémoire en direct dans la barre de menus, formatés à votre façon.',
 
-      'features.heading': 'Dix outils, une seule app',
+      'features.heading': 'Sept outils, une seule app',
       'features.sub': "Chaque outil est indépendant — désactivez ceux dont vous n'avez pas besoin depuis les Paramètres.",
 
       'feat.screenshot.title': "Capture d'écran",
@@ -333,7 +333,7 @@
 
       'hero.eyebrow': 'macOS · Menüleisten-App',
       'hero.title': 'Dein freundlicher<br/>Mac-Begleiter.',
-      'hero.lede': 'Ein ganzes Toolkit praktischer Menüleisten-Tools in einer schlanken App. Erstelle und übersetze Screenshots, nimm den Bildschirm auf, schneide Clips, generiere QR-Codes, halte deinen Mac wach, durchsuche die Zwischenablage, überwache CPU und Speicher, konvertiere Bilder und starte Apps per Leertaste-Kürzel — alles aus einem einzigen Begleiter in deiner Menüleiste.',
+      'hero.lede': 'Ein ganzes Toolkit praktischer Menüleisten-Tools in einer schlanken App. Erstelle und übersetze Screenshots, generiere QR-Codes, halte deinen Mac wach, durchsuche die Zwischenablage, überwache CPU und Speicher, konvertiere Bilder und komprimiere Archive — alles aus einem einzigen Begleiter in deiner Menüleiste.',
       'hero.btn_download': 'CapyBuddy herunterladen',
       'hero.btn_download_sub': 'Gratis · Werbefrei',
       'hero.btn_inside': 'Inhalt anschauen →',
@@ -350,7 +350,7 @@
       'shots.cap7': 'Drei Tastenkürzel-Stile zur Auswahl — Snipaste, CleanShot X oder Shottr — um Konflikte zu vermeiden.',
       'shots.cap8': 'CPU und Speicher live in der Menüleiste, formatiert nach deinen Wünschen.',
 
-      'features.heading': 'Zehn Tools, eine Menüleisten-App',
+      'features.heading': 'Sieben Tools, eine Menüleisten-App',
       'features.sub': 'Jedes Tool ist unabhängig — deaktiviere die, die du nicht brauchst, in den Einstellungen.',
 
       'feat.screenshot.title': 'Screenshot',
@@ -484,7 +484,7 @@
 
       'hero.eyebrow': 'macOS · 菜单栏应用',
       'hero.title': '你贴心的<br/>Mac 小伙伴。',
-      'hero.lede': '一整套实用的菜单栏小工具，集成在一个简洁的应用里。截图并翻译、录制屏幕、剪辑视频、生成二维码、防止 Mac 休眠、浏览剪贴板历史、查看 CPU 与内存、转换图片，还能用长按空格快捷键启动应用 —— 全部由菜单栏里的这位小伙伴一手包办。',
+      'hero.lede': '一整套实用的菜单栏小工具，集成在一个简洁的应用里。截图并翻译、生成二维码、防止 Mac 休眠、浏览剪贴板历史、查看 CPU 与内存、转换图片、压缩与解压 —— 全部由菜单栏里的这位小伙伴一手包办。',
       'hero.btn_download': '下载 CapyBuddy',
       'hero.btn_download_sub': '免费 · 无广告',
       'hero.btn_inside': '看看里面有什么 →',
@@ -501,7 +501,7 @@
       'shots.cap7': '三种快捷键风格可选 —— Snipaste、CleanShot X 或 Shottr —— 避免冲突。',
       'shots.cap8': '菜单栏实时显示 CPU 与内存，格式随你设置。',
 
-      'features.heading': '十个工具，一个菜单栏应用',
+      'features.heading': '七个工具，一个菜单栏应用',
       'features.sub': '每个工具相互独立 —— 不需要的可在设置中关闭。',
 
       'feat.screenshot.title': '截图',
@@ -635,7 +635,7 @@
 
       'hero.eyebrow': 'macOS · App de barra de menús',
       'hero.title': 'Tu amigable<br/>compañero para Mac.',
-      'hero.lede': 'Toda una caja de herramientas para la barra de menús, en una sola app cuidada. Captura y traduce capturas, graba la pantalla, edita clips, genera códigos QR, mantén tu Mac despierto, navega por el portapapeles, vigila CPU y memoria, convierte imágenes y abre apps con un atajo de Espacio — todo desde un solo compañero en tu barra de menús.',
+      'hero.lede': 'Toda una caja de herramientas para la barra de menús, en una sola app cuidada. Captura y traduce capturas, genera códigos QR, mantén tu Mac despierto, navega por el portapapeles, vigila CPU y memoria, convierte imágenes y comprime archivos — todo desde un solo compañero en tu barra de menús.',
       'hero.btn_download': 'Descargar CapyBuddy',
       'hero.btn_download_sub': 'Gratis · Sin anuncios',
       'hero.btn_inside': 'Ver qué contiene →',
@@ -652,7 +652,7 @@
       'shots.cap7': 'Tres estilos de atajos a elegir — Snipaste, CleanShot X o Shottr — para evitar conflictos.',
       'shots.cap8': 'CPU y memoria en vivo en la barra de menús, con el formato que prefieras.',
 
-      'features.heading': 'Diez herramientas, una app de barra de menús',
+      'features.heading': 'Siete herramientas, una app de barra de menús',
       'features.sub': 'Cada herramienta es independiente — desactiva las que no necesites desde Ajustes.',
 
       'feat.screenshot.title': 'Captura',
@@ -786,7 +786,7 @@
 
       'hero.eyebrow': 'macOS · Приложение в строке меню',
       'hero.title': 'Дружелюбный<br/>помощник для Mac.',
-      'hero.lede': 'Целый набор удобных инструментов для строки меню в одном аккуратном приложении. Делайте и переводите скриншоты, записывайте экран, монтируйте клипы, генерируйте QR-коды, не давайте Mac уснуть, просматривайте буфер обмена, следите за CPU и памятью, конвертируйте изображения и запускайте приложения горячей клавишей Пробел — всё от одного помощника в вашей строке меню.',
+      'hero.lede': 'Целый набор удобных инструментов для строки меню в одном аккуратном приложении. Делайте и переводите скриншоты, генерируйте QR-коды, не давайте Mac уснуть, просматривайте буфер обмена, следите за CPU и памятью, конвертируйте изображения и сжимайте архивы — всё от одного помощника в вашей строке меню.',
       'hero.btn_download': 'Скачать CapyBuddy',
       'hero.btn_download_sub': 'Бесплатно · Без рекламы',
       'hero.btn_inside': 'Заглянуть внутрь →',
@@ -803,7 +803,7 @@
       'shots.cap7': 'Три стиля горячих клавиш на выбор — Snipaste, CleanShot X или Shottr — чтобы избежать конфликтов.',
       'shots.cap8': 'CPU и память в реальном времени в строке меню, в нужном вам формате.',
 
-      'features.heading': 'Десять инструментов, одно приложение',
+      'features.heading': 'Семь инструментов, одно приложение',
       'features.sub': 'Каждый инструмент независим — отключите ненужные в Настройках.',
 
       'feat.screenshot.title': 'Скриншот',
