@@ -83,6 +83,10 @@
       'ob.space.title': 'Space Shortcut',
       'ob.space.sub': 'Hold Space to launch any app.',
       'ob.space.key': 'space',
+      'ob.clip.sub': 'Search everything you’ve copied.',
+      'ob.qr.sub': 'Styled, scannable QR codes.',
+      'ob.awake.sub': 'Stop your Mac from sleeping.',
+      'ob.mon.sub': 'Live CPU & memory in the menu bar.',
 
       'download.heading': 'Get CapyBuddy',
       'download.sub': 'Free. No ads. Apple Silicon &amp; Intel.',
@@ -236,6 +240,10 @@
       'ob.space.title': 'Raccourci Espace',
       'ob.space.sub': 'Maintenez Espace pour lancer une app.',
       'ob.space.key': 'espace',
+      'ob.clip.sub': 'Cherchez tout ce que vous avez copié.',
+      'ob.qr.sub': 'Des QR codes stylés et scannables.',
+      'ob.awake.sub': 'Empêchez votre Mac de dormir.',
+      'ob.mon.sub': 'CPU et mémoire en direct dans la barre.',
 
       'download.heading': 'Obtenir CapyBuddy',
       'download.sub': 'Gratuit. Sans pub. Apple Silicon et Intel.',
@@ -387,6 +395,10 @@
       'ob.space.title': 'Leertaste-Kürzel',
       'ob.space.sub': 'Halte Leertaste, um Apps zu starten.',
       'ob.space.key': 'Leertaste',
+      'ob.clip.sub': 'Durchsuche alles, was du kopiert hast.',
+      'ob.qr.sub': 'Stilvolle, scannbare QR-Codes.',
+      'ob.awake.sub': 'Verhindere, dass dein Mac einschläft.',
+      'ob.mon.sub': 'CPU & Speicher live in der Menüleiste.',
 
       'download.heading': 'CapyBuddy holen',
       'download.sub': 'Gratis. Werbefrei. Apple Silicon &amp; Intel.',
@@ -538,6 +550,10 @@
       'ob.space.title': '空格快捷键',
       'ob.space.sub': '长按空格即可启动应用。',
       'ob.space.key': '空格',
+      'ob.clip.sub': '搜索你复制过的一切。',
+      'ob.qr.sub': '可扫描的个性化二维码。',
+      'ob.awake.sub': '防止你的 Mac 进入睡眠。',
+      'ob.mon.sub': '菜单栏实时显示 CPU 与内存。',
 
       'download.heading': '获取 CapyBuddy',
       'download.sub': '免费、无广告。Apple Silicon 与 Intel 通用。',
@@ -689,6 +705,10 @@
       'ob.space.title': 'Atajo con Espacio',
       'ob.space.sub': 'Mantén Espacio para abrir apps.',
       'ob.space.key': 'espacio',
+      'ob.clip.sub': 'Busca todo lo que has copiado.',
+      'ob.qr.sub': 'Códigos QR con estilo y escaneables.',
+      'ob.awake.sub': 'Evita que tu Mac se duerma.',
+      'ob.mon.sub': 'CPU y memoria en vivo en la barra.',
 
       'download.heading': 'Obtener CapyBuddy',
       'download.sub': 'Gratis. Sin anuncios. Apple Silicon e Intel.',
@@ -840,6 +860,10 @@
       'ob.space.title': 'Клавиша Пробел',
       'ob.space.sub': 'Удерживайте Пробел, чтобы запускать приложения.',
       'ob.space.key': 'пробел',
+      'ob.clip.sub': 'Ищите всё, что вы копировали.',
+      'ob.qr.sub': 'Стильные сканируемые QR-коды.',
+      'ob.awake.sub': 'Не дайте Mac уснуть.',
+      'ob.mon.sub': 'CPU и память в реальном времени в меню.',
 
       'download.heading': 'Получить CapyBuddy',
       'download.sub': 'Бесплатно. Без рекламы. Apple Silicon и Intel.',
@@ -1043,21 +1067,34 @@
     const scenes = Array.prototype.slice.call(card.querySelectorAll('.ob-scene'));
     const dots = Array.prototype.slice.call(card.querySelectorAll('.ob-dot'));
     if (!scenes.length) return;
-    const ACCENTS = { blue: '#4a72ff', orange: '#d97a2c', red: '#e5484d', violet: '#7a5cff' };
-
-    function show(n) {
-      scenes.forEach((s, k) => s.classList.toggle('is-active', k === n));
-      dots.forEach((d, k) => d.classList.toggle('is-active', k === n));
-      const accent = ACCENTS[scenes[n].getAttribute('data-accent')] || ACCENTS.blue;
-      card.style.setProperty('--ob-accent', accent);
-      card.setAttribute('data-scene', String(n));
-    }
+    const ACCENTS = {
+      blue: '#4a72ff', orange: '#d97a2c', red: '#e5484d', violet: '#7a5cff',
+      indigo: '#5b5bd6', teal: '#0fb5ae', amber: '#d9a441', green: '#2f9e6b',
+    };
 
     let i = 0;
-    show(0);
+    function show(n) {
+      i = (n + scenes.length) % scenes.length;
+      scenes.forEach((s, k) => s.classList.toggle('is-active', k === i));
+      dots.forEach((d, k) => d.classList.toggle('is-active', k === i));
+      const accent = ACCENTS[scenes[i].getAttribute('data-accent')] || ACCENTS.blue;
+      card.style.setProperty('--ob-accent', accent);
+      card.setAttribute('data-scene', String(i));
+    }
+
     const reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-    if (reduce) return;
-    setInterval(() => { i = (i + 1) % scenes.length; show(i); }, 3000);
+    let timer = null;
+    function stop() { if (timer) { clearInterval(timer); timer = null; } }
+    function start() { if (reduce) return; stop(); timer = setInterval(() => show(i + 1), 3000); }
+
+    dots.forEach((d, k) => d.addEventListener('click', () => { show(k); start(); }));
+    const back = card.querySelector('.ob-btn-back');
+    const next = card.querySelector('.ob-btn-next');
+    if (back) back.addEventListener('click', () => { show(i - 1); start(); });
+    if (next) next.addEventListener('click', () => { show(i + 1); start(); });
+
+    show(0);
+    start();
   }
 
   function init() {
