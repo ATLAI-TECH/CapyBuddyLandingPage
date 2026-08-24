@@ -27,7 +27,7 @@
     <nav class="site-nav">
       <a href="#screenshots" data-i18n="nav.screenshots">Screenshots</a>
       <a href="#features" data-i18n="nav.features">Features</a>
-      <!-- Pricing hidden until Pro launches: <a href="#pricing" data-i18n="nav.pricing">Pricing</a> -->
+      <a href="#pricing" data-i18n="nav.pricing">Pricing</a>
       <a href="#support" data-i18n="nav.support">Support</a>
       <a href="https://github.com/ATLAI-TECH/CapyBuddyTools" target="_blank" rel="noopener" data-i18n="nav.github">GitHub</a>
 
@@ -305,37 +305,46 @@
           <p data-i18n="feat.compressor.desc">Compress or extract archives — zip, tar, tar.gz, gz — with a simple drag-and-drop window.</p>
         </article>
 
-        <!-- Pro feature cards hidden until Pro launches — uncomment to restore (and change features.heading back to ten tools).
-        Screen Recording
         <article class="feature-card">
-          <span class="feature-pro" data-i18n="feat.pro_badge">PRO</span>
           <div class="feature-icon" aria-hidden="true">⏺</div>
           <h3 data-i18n="feat.recording.title">Screen Recording</h3>
           <p data-i18n="feat.recording.desc">Record the full screen, a window, or a region to MP4/MOV — with optional system audio and mic.</p>
         </article>
-        Video Editor
+
         <article class="feature-card">
-          <span class="feature-pro" data-i18n="feat.pro_badge">PRO</span>
           <div class="feature-icon" aria-hidden="true">✂️</div>
           <h3 data-i18n="feat.videoeditor.title">Video Editor</h3>
           <p data-i18n="feat.videoeditor.desc">Trim, crop, speed up, or mute a clip right after recording — no extra app needed.</p>
         </article>
-        Space Shortcut
+
+        <article class="feature-card">
+          <span class="feature-pro" data-i18n="feat.pro_badge">PRO</span>
+          <div class="feature-icon" aria-hidden="true">🔐</div>
+          <h3 data-i18n="feat.vault.title">Password Vault</h3>
+          <p data-i18n="feat.vault.desc">A fully encrypted password manager in your menu bar — standard KeePass (.kdbx) format, Touch ID unlock, iCloud sync.</p>
+        </article>
+
+        <article class="feature-card">
+          <span class="feature-pro" data-i18n="feat.pro_badge">PRO</span>
+          <div class="feature-icon" aria-hidden="true">🛡️</div>
+          <h3 data-i18n="feat.auth.title">2FA Codes</h3>
+          <p data-i18n="feat.auth.desc">Built-in authenticator: two-factor codes live right next to their passwords — one click to copy.</p>
+        </article>
+
         <article class="feature-card">
           <span class="feature-pro" data-i18n="feat.pro_badge">PRO</span>
           <div class="feature-icon" aria-hidden="true">␣</div>
           <h3 data-i18n="feat.space.title">Space Shortcut</h3>
           <p data-i18n="feat.space.desc">Hold the Space bar and tap a key to instantly launch or focus your favourite apps.</p>
         </article>
-        -->
       </div>
     </section>
 
-    <!-- ====== PRICING — hidden until Pro launches. Uncomment this whole section (and the nav links + Pro feature cards + Pro animation scenes) to restore. ======
+    <!-- ====== PRICING ====== -->
     <section id="pricing" class="pricing">
       <div class="section-head">
         <h2 data-i18n="pricing.heading">Free, with an optional Pro unlock</h2>
-        <p data-i18n="pricing.sub">The core tools are free forever. Unlock the power features once for £4.99 — no subscription.</p>
+        <p data-i18n="pricing.sub">The core tools are free forever. Unlock the power features once for £1.99 — no subscription.</p>
       </div>
 
       <div class="pricing-grid">
@@ -346,7 +355,7 @@
             <p class="price-tagline" data-i18n="pricing.free.tagline">The core menu-bar tools, forever.</p>
           </header>
           <ul class="price-perks">
-            <li data-i18n="pricing.free.perk1">Seven core menu-bar tools</li>
+            <li data-i18n="pricing.free.perk1">Screenshot, recording & 20+ toolbox tools</li>
             <li data-i18n="pricing.free.perk2">No ads, no account</li>
             <li data-i18n="pricing.free.perk3">Apple Silicon & Intel</li>
           </ul>
@@ -358,25 +367,24 @@
           <header class="price-head">
             <h3 data-i18n="pricing.pro.name">Pro</h3>
             <div class="price">
-              <span class="price-amount" data-i18n="pricing.pro.price">£4.99</span>
+              <span class="price-amount" data-i18n="pricing.pro.price">£1.99</span>
               <span class="price-note" data-i18n="pricing.pro.price_note">one-time · no subscription</span>
             </div>
             <p class="price-tagline" data-i18n="pricing.pro.tagline">Everything in Free, plus the power tools.</p>
           </header>
           <ul class="price-perks">
-            <li data-i18n="pricing.pro.perk1">Hold-Space window shortcuts</li>
-            <li data-i18n="pricing.pro.perk2">Screen & window recording</li>
-            <li data-i18n="pricing.pro.perk3">Built-in clip editor</li>
-            <li data-i18n="pricing.pro.perk4">Snap-to-element screenshots</li>
-            <li data-i18n="pricing.pro.perk5">Automatic updates</li>
+            <li data-i18n="pricing.pro.perk1">Encrypted password vault (KeePass format)</li>
+            <li data-i18n="pricing.pro.perk2">Built-in 2FA authenticator codes</li>
+            <li data-i18n="pricing.pro.perk3">Hold-Space app shortcuts</li>
+            <li data-i18n="pricing.pro.perk4">Global Toolbox hotkey (⌃3)</li>
+            <li data-i18n="pricing.pro.perk5">Activate on up to 3 Macs</li>
           </ul>
-          <a href="https://capybuddy.lemonsqueezy.com/buy/REPLACE-WITH-PRODUCT-ID" target="_blank" rel="noopener" class="btn btn-primary price-cta" data-i18n="pricing.pro.cta">Get CapyBuddy Pro</a>
+          <a href="https://atlai.lemonsqueezy.com/checkout/buy/166e5d82-24fa-43bb-9415-cd175bcdc141" target="_blank" rel="noopener" class="btn btn-primary price-cta" data-i18n="pricing.pro.cta">Get CapyBuddy Pro</a>
         </article>
       </div>
 
       <p class="pricing-note" data-i18n="pricing.note">One-time payment, no subscription. Secure checkout & VAT handled by Lemon Squeezy.</p>
     </section>
-    ====== -->
 
     <!-- ====== DOWNLOAD ====== -->
     <section id="download" class="download-band">
@@ -386,7 +394,7 @@
           <h2 data-i18n="download.heading">Get CapyBuddy</h2>
           <p data-i18n-html="download.sub">Open source, no ads. Apple Silicon &amp; Intel.</p>
           <div class="cta-row">
-            <a href="https://github.com/ATLAI-TECH/CapyBuddy/releases/latest/download/CapyBuddy.dmg" class="btn btn-primary">
+            <a href="https://github.com/ATLAI-TECH/CapyBuddy-releases/releases/latest/download/CapyBuddy.dmg" class="btn btn-primary">
               <span data-i18n="download.btn">Download CapyBuddy</span>
               <small data-i18n="download.btn_sub">latest · .dmg</small>
             </a>
@@ -442,7 +450,7 @@
       <nav class="footer-nav">
         <a href="#features" data-i18n="nav.features">Features</a>
         <a href="#screenshots" data-i18n="nav.screenshots">Screenshots</a>
-        <!-- Pricing hidden until Pro launches: <a href="#pricing" data-i18n="nav.pricing">Pricing</a> -->
+        <a href="#pricing" data-i18n="nav.pricing">Pricing</a>
         <a href="#support" data-i18n="nav.support">Support</a>
         <a href="https://github.com/ATLAI-TECH/CapyBuddyTools" target="_blank" rel="noopener" data-i18n="nav.github">GitHub</a>
         <a href="privacy.html">Privacy</a>
