@@ -12,6 +12,9 @@
 .idea/
 *.swp
 
+# Deploy log written on the server
+deploy.log
+
 # Build output (in case we add a bundler later)
 node_modules/
 dist/
