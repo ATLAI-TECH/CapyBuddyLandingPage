@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>CapyBuddy — Your friendly Mac companion</title>
-  <meta name="description" content="CapyBuddy is a tiny, friendly menu-bar app for macOS. Six handy tools — Screenshot, Keep Awake, Clipboard, System Monitor, Picture Converter, QR Code — wrapped in one tidy app." />
+  <meta name="description" content="CapyBuddy is a friendly menu-bar app for macOS. Screenshot with OCR &amp; translate, screen recording, clipboard history, and a whole free Toolbox — converters, PDF tools, QR codes and more. Pro adds a KeePass password vault, 2FA codes, and Space shortcuts." />
   <meta name="theme-color" content="#f7f3ec" />
   <link rel="icon" type="image/png" href="img/macbuddy_icon.png" />
   <link rel="apple-touch-icon" href="img/macbuddy_icon.png" />
@@ -14,7 +14,7 @@
   <link rel="stylesheet" href="css/styles.css" />
 
   <meta property="og:title" content="CapyBuddy — Your friendly Mac companion" />
-  <meta property="og:description" content="Six handy menu-bar tools wrapped in one tidy macOS app." />
+  <meta property="og:description" content="Screenshot, screen recording &amp; a whole free toolbox in your menu bar — with an optional one-time Pro unlock." />
   <meta property="og:image" content="img/macbuddy_icon.png" />
   <meta property="og:type" content="website" />
 </head>
@@ -29,7 +29,7 @@
       <a href="#features" data-i18n="nav.features">Features</a>
       <a href="#pricing" data-i18n="nav.pricing">Pricing</a>
       <a href="#support" data-i18n="nav.support">Support</a>
-      <a href="https://github.com/ATLAI-TECH/CapyBuddyTools" target="_blank" rel="noopener" data-i18n="nav.github">GitHub</a>
+      <a href="https://github.com/ATLAI-TECH/CapyBuddy-releases" target="_blank" rel="noopener" data-i18n="nav.github">GitHub</a>
 
       <div class="lang-switcher" id="lang-switcher">
         <button class="lang-btn" type="button" aria-haspopup="true" aria-expanded="false" data-i18n-aria-label="nav.lang_aria" aria-label="Choose language">
@@ -61,18 +61,18 @@
           <span class="eyebrow" data-i18n="hero.eyebrow">macOS · Menu-bar app</span>
           <h1 data-i18n-html="hero.title">Your friendly<br />Mac companion.</h1>
           <p class="lede" data-i18n="hero.lede">
-            Six handy menu-bar tools, wrapped in one tidy app. Capture and translate
-            screenshots, generate QR codes, keep your Mac awake, browse clipboard
-            history, watch CPU + memory, and convert pictures — all from a single
-            buddy in your menu bar.
+            Screenshot with OCR &amp; translate, screen recording, clipboard history,
+            and a whole free Toolbox — converters, PDF tools, QR codes, text
+            utilities and more. One tidy buddy in your menu bar, with an optional
+            Pro unlock for the power features.
           </p>
           <div class="cta-row">
             <a href="#download" class="btn btn-primary">
               <span data-i18n="hero.btn_download">Download CapyBuddy</span>
-              <small data-i18n="hero.btn_download_sub">No ads · Open source</small>
+              <small data-i18n="hero.btn_download_sub">Free · No ads</small>
             </a>
           </div>
-          <p class="hero-meta" data-i18n="hero.meta">Open source. No accounts. No subscriptions.</p>
+          <p class="hero-meta" data-i18n="hero.meta">No ads. No accounts. No subscriptions.</p>
         </div>
 
         <div class="hero-art">
@@ -165,6 +165,18 @@
                 <p class="ob-sub" data-i18n="ob.mon.sub">Live CPU &amp; memory in the menu bar.</p>
               </div>
 
+              <!-- Scene · Toolbox (tiles pop in) -->
+              <div class="ob-scene" data-accent="blue">
+                <div class="ob-art ob-art-toolbox">
+                  <span class="ob-tool">🖼️</span>
+                  <span class="ob-tool">🎬</span>
+                  <span class="ob-tool">📄</span>
+                  <span class="ob-tool">🔤</span>
+                </div>
+                <h3 class="ob-title" data-i18n="feat.toolbox.title">Toolbox</h3>
+                <p class="ob-sub" data-i18n="ob.toolbox.sub">A dozen more tools in one window.</p>
+              </div>
+
               <!-- Scene · Space Shortcut (keycap) -->
               <div class="ob-scene" data-accent="violet">
                 <div class="ob-art ob-art-space">
@@ -175,8 +187,19 @@
                   </div>
                   <span class="ob-key" data-i18n="ob.space.key">space</span>
                 </div>
-                <h3 class="ob-title" data-i18n="ob.space.title">Space Shortcut</h3>
+                <h3 class="ob-title"><span data-i18n="ob.space.title">Space Shortcut</span> <span class="ob-pro" data-i18n="feat.pro_badge">PRO</span></h3>
                 <p class="ob-sub" data-i18n="ob.space.sub">Hold Space to launch any app.</p>
+              </div>
+
+              <!-- Scene · Password Vault + 2FA (lock pulse) -->
+              <div class="ob-scene" data-accent="violet">
+                <div class="ob-art ob-art-vault">
+                  <span class="ob-pulse"></span>
+                  <span class="ob-pulse ob-pulse-2"></span>
+                  <span class="ob-lock">🔐</span>
+                </div>
+                <h3 class="ob-title"><span data-i18n="feat.vault.title">Password Vault</span> <span class="ob-pro" data-i18n="feat.pro_badge">PRO</span></h3>
+                <p class="ob-sub" data-i18n="ob.vault.sub">KeePass vault + 2FA · Touch ID.</p>
               </div>
             </div>
 
@@ -189,6 +212,8 @@
               <button type="button" class="ob-dot" aria-label="6"></button>
               <button type="button" class="ob-dot" aria-label="7"></button>
               <button type="button" class="ob-dot" aria-label="8"></button>
+              <button type="button" class="ob-dot" aria-label="9"></button>
+              <button type="button" class="ob-dot" aria-label="10"></button>
             </div>
 
             <div class="ob-nav">
@@ -258,15 +283,21 @@
     <!-- ====== FEATURES ====== -->
     <section id="features" class="features">
       <div class="section-head">
-        <h2 data-i18n="features.heading">Seven tools, one menu-bar app</h2>
+        <h2 data-i18n="features.heading">A whole toolbox, one menu-bar app</h2>
         <p data-i18n="features.sub">Each tool is independent — turn off the ones you don't need from Settings.</p>
       </div>
 
       <div class="feature-grid">
         <article class="feature-card">
+          <div class="feature-icon" aria-hidden="true">🧰</div>
+          <h3 data-i18n="feat.toolbox.title">Toolbox</h3>
+          <p data-i18n="feat.toolbox.desc">Every tool below in one searchable window. Free for everyone — Pro adds the global ⌃3 hotkey.</p>
+        </article>
+
+        <article class="feature-card">
           <div class="feature-icon" aria-hidden="true">⌃1</div>
           <h3 data-i18n="feat.screenshot.title">Screenshot</h3>
-          <p data-i18n="feat.screenshot.desc">Region capture with a global hotkey, then annotate, translate, copy, save, or pin the result.</p>
+          <p data-i18n="feat.screenshot.desc">Region capture with a global hotkey — annotate, extract text (OCR), translate, copy, save, or pin it.</p>
         </article>
 
         <article class="feature-card">
@@ -278,7 +309,7 @@
         <article class="feature-card">
           <div class="feature-icon" aria-hidden="true">📋</div>
           <h3 data-i18n="feat.clipboard.title">Clipboard</h3>
-          <p data-i18n="feat.clipboard.desc">Keeps a searchable history of recent clipboard items, including images. Pin the ones you reuse.</p>
+          <p data-i18n="feat.clipboard.desc">A searchable history of everything you copy — text and images — one ⇧⌘V away. Pin the ones you reuse.</p>
         </article>
 
         <article class="feature-card">
@@ -289,8 +320,8 @@
 
         <article class="feature-card">
           <div class="feature-icon" aria-hidden="true">🖼️</div>
-          <h3 data-i18n="feat.picture.title">Picture Converter</h3>
-          <p data-i18n="feat.picture.desc">Drag-and-drop converter between PNG, JPEG, HEIC, TIFF, GIF, AVIF, ICO, BMP, ICNS, JP2.</p>
+          <h3 data-i18n="feat.converters.title">Converters</h3>
+          <p data-i18n="feat.converters.desc">Pictures, audio, video, documents, and data — drag, drop, done. PNG, HEIC, MP4, M4A, JSON, CSV and more.</p>
         </article>
 
         <article class="feature-card">
@@ -308,13 +339,31 @@
         <article class="feature-card">
           <div class="feature-icon" aria-hidden="true">⏺</div>
           <h3 data-i18n="feat.recording.title">Screen Recording</h3>
-          <p data-i18n="feat.recording.desc">Record the full screen, a window, or a region to MP4/MOV — with optional system audio and mic.</p>
+          <p data-i18n="feat.recording.desc">Record the full screen, a window, or a region to MP4/MOV — pause/resume, optional system audio and mic.</p>
         </article>
 
         <article class="feature-card">
           <div class="feature-icon" aria-hidden="true">✂️</div>
           <h3 data-i18n="feat.videoeditor.title">Video Editor</h3>
           <p data-i18n="feat.videoeditor.desc">Trim, crop, speed up, or mute a clip right after recording — no extra app needed.</p>
+        </article>
+
+        <article class="feature-card">
+          <div class="feature-icon" aria-hidden="true">📄</div>
+          <h3 data-i18n="feat.pdf.title">PDF Tools</h3>
+          <p data-i18n="feat.pdf.desc">Merge and split PDFs, turn images into a PDF, or export PDF pages as images.</p>
+        </article>
+
+        <article class="feature-card">
+          <div class="feature-icon" aria-hidden="true">🔤</div>
+          <h3 data-i18n="feat.textkit.title">Text Toolkit &amp; Generators</h3>
+          <p data-i18n="feat.textkit.desc">Case, JSON, Base64, URL, hashes and line tools — plus UUID, password, and timestamp generators.</p>
+        </article>
+
+        <article class="feature-card">
+          <div class="feature-icon" aria-hidden="true">🗑️</div>
+          <h3 data-i18n="feat.uninstaller.title">App Uninstaller</h3>
+          <p data-i18n="feat.uninstaller.desc">Drop in an app to remove it together with its caches, preferences, and leftover files.</p>
         </article>
 
         <article class="feature-card">
@@ -355,7 +404,7 @@
             <p class="price-tagline" data-i18n="pricing.free.tagline">The core menu-bar tools, forever.</p>
           </header>
           <ul class="price-perks">
-            <li data-i18n="pricing.free.perk1">Screenshot, recording & 20+ toolbox tools</li>
+            <li data-i18n="pricing.free.perk1">Screenshot, recording &amp; the whole Toolbox (15+ tools)</li>
             <li data-i18n="pricing.free.perk2">No ads, no account</li>
             <li data-i18n="pricing.free.perk3">Apple Silicon & Intel</li>
           </ul>
@@ -386,19 +435,44 @@
       <p class="pricing-note" data-i18n="pricing.note">One-time payment, no subscription. Secure checkout & VAT handled by Lemon Squeezy.</p>
     </section>
 
+    <!-- ====== FAQ ====== -->
+    <section id="faq" class="faq">
+      <div class="section-head">
+        <h2 data-i18n="faq.heading">Questions, answered</h2>
+      </div>
+      <div class="faq-list">
+        <details class="faq-item">
+          <summary data-i18n="faq.q1">Is the free version really free?</summary>
+          <p data-i18n="faq.a1">Yes. Everything outside the three Pro features — including the entire Toolbox — is free forever, with no ads and no account.</p>
+        </details>
+        <details class="faq-item">
+          <summary data-i18n="faq.q2">How does the Pro unlock work?</summary>
+          <p data-i18n="faq.a2">Buy once and a license key lands in your email. Paste it into CapyBuddy → Settings → License and the Pro features unlock instantly — on up to 3 Macs, forever, updates included.</p>
+        </details>
+        <details class="faq-item">
+          <summary data-i18n="faq.q3">Is my vault data safe?</summary>
+          <p data-i18n="faq.a3">Your passwords live in a standard encrypted KeePass (.kdbx) file on your Mac, optionally synced through your own iCloud Drive. Nothing is ever sent to our servers.</p>
+        </details>
+        <details class="faq-item">
+          <summary data-i18n="faq.q4">Why does CapyBuddy ask for permissions?</summary>
+          <p data-i18n="faq.a4">Only when a tool needs one — Screen Recording for screenshots and recordings, Accessibility for Space Shortcut. Nothing is requested at install, and every grant is optional.</p>
+        </details>
+      </div>
+    </section>
+
     <!-- ====== DOWNLOAD ====== -->
     <section id="download" class="download-band">
       <div class="download-inner">
         <img src="img/macbuddy_icon.png" alt="" class="download-icon" />
         <div>
           <h2 data-i18n="download.heading">Get CapyBuddy</h2>
-          <p data-i18n-html="download.sub">Open source, no ads. Apple Silicon &amp; Intel.</p>
+          <p data-i18n-html="download.sub">Free, no ads. Apple Silicon &amp; Intel.</p>
           <div class="cta-row">
             <a href="https://github.com/ATLAI-TECH/CapyBuddy-releases/releases/latest/download/CapyBuddy.dmg" class="btn btn-primary">
               <span data-i18n="download.btn">Download CapyBuddy</span>
               <small data-i18n="download.btn_sub">latest · .dmg</small>
             </a>
-            <a href="https://github.com/ATLAI-TECH/CapyBuddyTools" target="_blank" rel="noopener" class="btn btn-ghost" data-i18n="download.view">View source on GitHub →</a>
+            <a href="https://github.com/ATLAI-TECH/CapyBuddy-releases" target="_blank" rel="noopener" class="btn btn-ghost" data-i18n="download.view">Releases on GitHub →</a>
           </div>
         </div>
       </div>
@@ -452,7 +526,8 @@
         <a href="#screenshots" data-i18n="nav.screenshots">Screenshots</a>
         <a href="#pricing" data-i18n="nav.pricing">Pricing</a>
         <a href="#support" data-i18n="nav.support">Support</a>
-        <a href="https://github.com/ATLAI-TECH/CapyBuddyTools" target="_blank" rel="noopener" data-i18n="nav.github">GitHub</a>
+        <a href="#faq" data-i18n="nav.faq">FAQ</a>
+        <a href="https://github.com/ATLAI-TECH/CapyBuddy-releases" target="_blank" rel="noopener" data-i18n="nav.github">GitHub</a>
         <a href="privacy.html">Privacy</a>
         <a href="terms.html">Terms</a>
         <a href="https://termbuddy.atlai.co.uk/" target="_blank" rel="noopener">TermBuddy ↗</a>

@@ -1,2 +1,2 @@
-# MacBuddy_landingpage
-MacBuddy_landingpage
+# CapyBuddy_landingpage
+CapyBuddy_landingpage
